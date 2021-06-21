@@ -16,6 +16,7 @@ int main(void)
   printf("float=%16.8e\n",f);
 
   printf("log2=%f\n", log(f)/log(2));
+  printf("exp=%d\n", ((i >> 23) & 0xff) - 127);
 
   return 0;
 }
